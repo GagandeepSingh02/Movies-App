@@ -1,0 +1,25 @@
+.pagination {
+    width: calc(100vw - 400px);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+
+.pagination-button {
+    width: 40px;
+    height: 100%;
+    border: 3px solid red;
+    color: white;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.pagination-button:hover {
+    background-color: red;
+    cursor: pointer;
+}

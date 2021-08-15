@@ -1,0 +1,40 @@
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(26, 25, 25);
+}
+
+.movies-table-container {
+    height: calc(100vh - 70px);
+    width: calc(100vw - 250px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.movie-search{
+    height: 40px;
+    width: calc(100vw - 600px);
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px 3px red;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    background-color: rgb(255, 254, 254);
+}
+
+input:focus{
+    outline: none;
+}
+
+.filters {
+    display: flex;
+}
+
+.rating-dropdown{
+    margin-left: 15px;
+    height: 30px;
+    width: 100px;
+}
+

@@ -1,0 +1,12 @@
+.nav-bar{
+    height: 60px;
+    width: 100vw;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.logo {
+    height: 50px;
+    padding-right : 5px;
+    margin: 5px;
+}
